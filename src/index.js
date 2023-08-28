@@ -8,7 +8,6 @@ class Square extends React.Component {
             <button
                 className="square"
                 onClick={() => {
-                    console.log("click");
                     this.props.onClick();
                 }}
             >
